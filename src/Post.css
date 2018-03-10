@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  background: #218664;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a.active {
+  background: rgba(255,255,255,.5)
+}
+
 .Post-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
